@@ -93,10 +93,10 @@ It will ask you for your Ubuntu Root password
 Then it will ask you for your mysql root password
 
 * You should see a prompt like this: ``mysql>``
-* ``mysql>`` CREATE USER 'opencats'@'localhost' IDENTIFIED BY 'databasepassword';
-* ``mysql>`` CREATE DATABASE opencats;
-* ``mysql>`` GRANT ALL PRIVILEGES ON 'opencats'.* TO 'opencats'@'localhost' IDENTIFIED BY 'databasepassword';
-* ``mysql>`` exit;
+* ``mysql> CREATE USER 'opencats'@'localhost' IDENTIFIED BY 'databasepassword';``
+* ``mysql> CREATE DATABASE opencats;``
+* ``mysql> GRANT ALL PRIVILEGES ON opencats .* TO 'opencats'@'localhost' IDENTIFIED BY 'databasepassword';``
+* ``mysql> exit;``
 
 .. note:: Make sure you don't forget the ; on the end of every line!
 
